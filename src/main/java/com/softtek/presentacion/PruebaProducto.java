@@ -10,10 +10,6 @@ public class PruebaProducto {
 
             // Crear un producto sin ID
             Producto productoSinID = new Producto();
-            productoSinID.setNombre("Tostadora");
-            productoSinID.setPrecio(49.99);
-            productoSinID.setProveedor("Electrodomésticos SA");
-            productoSinID.setDescripcion("Tostadora con capacidad para dos rebanadas");
 
             try {
                 productoConID.comprobar();
